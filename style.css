@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+#backtop {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    display: none;
+}
+#backtop a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    font-size: 35px;
+    color: white;
+}
+.backtop-show {
+    display: block !important;
+}
+.container{ 
+    max-width: 1220px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #A1B5BB;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+ul{
+    list-style-type: none;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+.nav-list{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    background-color: #08546C;
+}
+.nav-link{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    top: 0;
+}
+  
+.btn-1{
+    width: 110px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border-color: transparent;
+    background: #145E76;
+    color: #FFF;     
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.8px;
+}
+.nav-menu-btn {
+    display: none;
+}
+#navbar-responsive {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    transition: 0.5s;
+    background-color: green;
+}
+
+.res-nav-item {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.res-nav-link {
+    color: white;
+}
+.navbar-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-close img {
+    width: 40px;
+}
+.home{
+    padding-top: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #08546C;
+}
+.home-left .btn-2{
+    width: 165px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #094556;
+    color: #FFF;
+    font-family: Schoolbell;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.home-left h1{
+    width: 500px;
+    color: #FFF; 
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+}
+.home-left p {
+    width: 450px;
+    color: #849499;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    
+}
+.btn-3{
+    width: 137px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFA63A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px;   
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-card{
+    width: 273px;
+    height: 141px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 41.77761px 33.42209px 0px rgba(0, 0, 0, 0.05);
+}
+.about-card h2{
+    padding: 10px;
+    color: #0F1221;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.about-card p{
+    padding: 10px;
+    width: 265px;
+    height: 73px;
+    flex-shrink: 0;
+    color: #696969;   
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.abouts h3{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    color: #265A6A;
+    font-family: Schoolbell;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-decoration-line: underline;
+}
+.abouts h2 {
+    padding-bottom: 20px;
+   margin: 0 auto;
+    width: 500px;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+}
+.service{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 70px;
+}
+.sr h2{
+    padding-top:100px ;
+    text-align: center;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56.25px;
+}
+.sr p{
+    width: 500px;
+    margin: 0 auto;
+    color: #757575;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+.service h2{
+    padding-top: 20px;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28.8px;
+    
+}
+.service p {
+    padding-top: 20px;
+    width: 360px;
+    color: #757575;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+    
+}
+.service h3 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+}
+.port{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #08546C;
+}
+.port-right pre{
+    width: 585px;
+    height: 151px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.6px;
+    
+}
+.port-right p{
+    color: #AABFC6;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.6px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+.contact h2{
+    padding-top: 50px;
+    color: #08546C;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.contact p{
+    padding-top: 10px;
+    width: 300px;
+    color: #757575;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+@media (max-width: 650px) {
+    .nav-menu-btn {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+      .about-card, .home, .service, .port {
+        flex-direction: column;
+    }
+}
